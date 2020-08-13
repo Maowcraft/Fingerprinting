@@ -1,0 +1,14 @@
+name: Fingerprinting
+version: @version@
+main: maowcraft.fingerprinting.Fingerprinting
+api-version: 1.16
+prefix: Fingerprinting
+authors: [Maowcraft]
+description: Killing a player using any item will add a fingerprint log to that item which can be inspected.
+
+commands:
+  inspect:
+    aliases: [ ins, insp ]
+    permission: fingerprinting.inspect.use
+    description: Inspect a weapon for fingerprints.
+    usage: "Usage: /<command>"
